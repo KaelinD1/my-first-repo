@@ -2,7 +2,7 @@
 response= input ("Is today a good day?: y/n")   
 if response == 'y':
     for _ in range(10):
-        print("Yeah it is!")
+        print("Absolutely!")
 
 elif response =='n':
     print("Maybe tomorrow will be better")
