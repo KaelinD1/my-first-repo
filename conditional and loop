@@ -5,4 +5,4 @@ if response == 'y':
 elif response =='n':
     print("Maybe tomorrow will be better")
 else:
-    print("Please reinput to ensure that I have the corrct response")    
+    print("Please reinput to ensure that I have the correct response")    
