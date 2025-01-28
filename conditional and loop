@@ -1,9 +1,23 @@
-# Ask user if today is good or not? y/n
-response= input ("Is today a good day?: y/n")   
-if response == 'y':
-    for _ in range(10):
+"""
+This script as the user if today is a good day an includes a 
+function to print through a irteration x-10
+"""
+
+def send_message():
+ """
+ Prints a positive message and says Absolutely 10 times
+ """
+for _ in range(10):
         print("Absolutely!")
 
+
+# Ask user if today is good or not? y/n
+response= input ("Is today a good day?: y/n")   
+
+if response == 'y':
+    # Call function to print
+    send_message()
+    
 elif response =='n':
     print("Maybe tomorrow will be better")
 else:
