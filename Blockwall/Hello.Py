@@ -1,2 +1,6 @@
-print("Hello, World!")
-print("Today is a great day!")   
+
+name = input("Insert your name here: ")
+
+print("Hello", name)  
+
+print("Today is going to be a great day") 
